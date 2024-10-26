@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TarakSirPrivateTutor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="assets/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>OneStopEducation</p>
+            <h1><span>TSPT</span><br>Since 1989</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>Tarak Sir's Private Tutors offers tailored coaching for students in grades 8 to 12. Our comprehensive curriculum covers Mathematics, Science, Physics, Chemistry, Biology, Accountancy, Statistics, Economics, Business Studies, Organization of Commerce, Applied Mathematics, SPCC, English, Grammar, Social Science, Gujarati, Hindi, and Sanskrit. With a focus on personalized attention and academic excellence, we help students build a strong foundation and achieve their educational goals.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Mission</p>
+                    <p class="tab-links" onclick="opentab('experience')">Subjects</p>
+                    <p class="tab-links" onclick="opentab('education')">Feedback</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Mission</span><br><p>Our mission is to empower students with the knowledge, skills, and confidence they need to succeed academically and beyond. We strive to provide a nurturing and stimulating learning environment where each student is valued, challenged, and supported.</p></li>
+                        
+                </div>
+                <div class="tab-contents" id="experience">
+                    <li><span>Subjects Offered</span><br></li>
+                    <ul>
+                        <li>Mathematics (Grades 8-12)</li>
+                        <li>Science (Physics, Chemistry, Biology)</li>
+                        <li>English Language and Literature</li>
+                        <li>Social Studies</li>
+                        <li>Test Preparation (IIT JEE, NEET)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Vishwas(s)</span><br>"Thanks to TSPT, I improved my grades from C to A in just one year! The personalized attention made all the difference."</li>
+                        <li><span>Jignesh Bhai(p)</span><br>"Our son struggled with Math, but with the help of TSPT, he not only caught up but also developed a love for the subject!"</li>
+                        <li><span>Sachin (s)</span><br>"The tutoring sessions were engaging and fun. I felt more confident going into my exams!"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>8-10 CBSE GSEB</h2>
+                <p>We </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>11-12 SCI/COM CBSE GSEB
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>IIT JEE and NEET</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Teachers</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/taraksir.jpg">
+                <div class="layer">
+                    <h3>Tarak SiR</h3>
+                    <p>Teaches Maths and Science </p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/jaysir.jpg">
+                <div class="layer">
+                    <h3>Jay SiR</h3>
+                    <p>Teaches Gujarati,Hindi and Sanskrit</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Bhavana Maam</h3>
+                    <p>Teaches Social Science And English</p>
+                   
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact us</h1>
+                <p><i class="fas fa-paper-plane"></i> tsptedu@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">...</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
